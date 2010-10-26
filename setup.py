@@ -11,7 +11,7 @@ import sys
 
 from setuptools import find_packages, setup
 
-data_files = [(os.path.join('twisted', 'plugins'), [os.path.join('twisted', 'plugins', 'trialcoveragereporterplugin.py')])]
+data_files = [(os.path.join('twisted', 'plugins'), [os.path.join('twisted', 'plugins', 'trialjunitxmlreporterplugin.py')])]
 
 setup(
     name         = 'trialjunitxml',
